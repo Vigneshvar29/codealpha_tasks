@@ -1,8 +1,8 @@
-# 🕷️ Codealpha_WebScraper
+ Codealpha_WebScraper
 
 A multi-page web scraper built with **BeautifulSoup** and **Requests** that collects structured book data from a public website and exports it as a clean CSV dataset.
 
-## 📌 Features
+ Features
 
 - Scrapes book titles, prices, star ratings, and availability across multiple pages
 - Handles pagination automatically
@@ -10,7 +10,7 @@ A multi-page web scraper built with **BeautifulSoup** and **Requests** that coll
 - Includes polite crawl delays and error handling
 - Sample preview printed to console after scraping
 
-## 🛠️ Tech Stack
+ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -18,7 +18,7 @@ A multi-page web scraper built with **BeautifulSoup** and **Requests** that coll
 | `BeautifulSoup4` | HTML parsing & data extraction |
 | `csv` (stdlib) | Dataset export |
 
-## 🚀 Getting Started
+ Getting Started
 
 ### 1. Install dependencies
 ```bash
@@ -34,7 +34,7 @@ python scraper.py
 - Console: live progress + sample of scraped data  
 - File: `books_dataset.csv` with all collected records
 
-## 📂 Project Structure
+ Project Structure
 
 ```
 Codealpha_WebScraper/
@@ -44,21 +44,21 @@ Codealpha_WebScraper/
 └── README.md
 ```
 
-## 📊 Sample Output (CSV)
+Sample Output (CSV)
 
 | title | price | rating | availability |
 |-------|-------|--------|--------------|
 | A Light in the Attic | £51.77 | 3 | In stock |
 | Tipping the Velvet | £53.74 | 1 | In stock |
 
-## 🔧 Configuration
+ Configuration
 
 In `scraper.py`, adjust `max_pages` in the `scrape()` call:
 ```python
 dataset = scrape(max_pages=5)   # Change to scrape more/fewer pages (max 50)
 ```
 
-## ⚠️ Ethical Scraping
+ Ethical Scraping
 
 - Always check a site's `robots.txt` before scraping
 - This project uses [books.toscrape.com](https://books.toscrape.com) — a site built specifically for scraping practice
