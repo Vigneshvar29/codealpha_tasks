@@ -41,4 +41,4 @@ python sentiment_analysis.py
 - `results.csv` — all reviews with sentiment scores and labels
 
 ---
-*Built as Task 4/4 for the CodeAlpha Internship.*
+*Built as Task 3 for the CodeAlpha Internship.*
