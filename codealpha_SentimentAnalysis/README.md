@@ -1,4 +1,4 @@
-# Task 4 - Sentiment Analysis
+# Task 3 - Sentiment Analysis
 
 Analyzes IMDB movie reviews using NLP to classify them as Positive, Negative, or Neutral.
 Combines a lexicon-based approach (VADER) with a Machine Learning model (Logistic Regression).
